@@ -8,7 +8,7 @@ function addProduct(productName){
   products.push(productName)
 }
 
-function updateProductName(newName,index){
+function updateProductName(index,newName){
   products[index] = newName
 
 }
