@@ -1,4 +1,21 @@
-// Write your code here
+let products = ["Laptop", "Phone", "Headphones", "Monitor"];
+
+function logFirstProduct() {
+        console.log(products[0]);
+    }
+
+function addProduct(productName){
+  products.push(productName)
+}
+
+function updateProductName(newName,index){
+  products[index] = newName
+
+}
+function removeLastProduct(){
+  products.pop();
+}
+
 
 
 
